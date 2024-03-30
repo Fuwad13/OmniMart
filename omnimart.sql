@@ -7,6 +7,7 @@ CREATE TABLE `user` (
   `email` varchar(50) not null,
   `password` varchar(30) not null,
   `phone_number` varchar(20) not null,
+  `avatar` varchar(20),
   `created_at` datetime,
   `modified_at` datetime,
   primary key (`id`)
@@ -40,6 +41,7 @@ CREATE TABLE `product` (
   `description` text not null,
   `price` decimal(15, 2) not null,
   `stk_quantity` int not null,
+  `image_path` varchar(20),
   `category_id` varchar(20) not null,
   `created_at` datetime not null,
   `modified_at` datetime,
@@ -148,4 +150,3 @@ CREATE TABLE `wishlist_item` (
   FOREIGN KEY (`wishlist_id`) REFERENCES `wishlist`(`id`),
   FOREIGN KEY (`product_id`) REFERENCES `product`(`id`)
 );
-
