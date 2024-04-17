@@ -169,7 +169,6 @@ CREATE TABLE `product` (
   `description` text not null,
   `price` decimal(15, 2) not null,
   `stk_quantity` int not null,
-  `image_path` varchar(20),
   `category_id` varchar(20) not null,
   `created_at` datetime not null,
   `modified_at` datetime,
@@ -534,39 +533,3 @@ CREATE TABLE `wishlist_item` (
   FOREIGN KEY (`product_id`) REFERENCES `product`(`id`)
 );
 
-
-INSERT INTO `wishlist_item` (`id`, `wishlist_id`, `product_id`, `quantity`, `created_at`, `modified_at`)
-VALUES
-('WLI00001', 'WL0001', 'PR000001', 1, '2024-04-13 08:00:00', '2024-04-13 08:00:00'),
-('WLI00002', 'WL0001', 'PR000002', 1, '2024-04-13 10:30:00', '2024-04-13 10:30:00'),
-('WLI00003', 'WL0002', 'PR000003', 2, '2024-04-13 12:15:00', '2024-04-13 12:15:00'),
-('WLI00004', 'WL0003', 'PR000004', 1, '2024-04-13 14:45:00', '2024-04-13 14:45:00'),
-('WLI00005', 'WL0004', 'PR000005', 3, '2024-04-13 16:20:00', '2024-04-13 16:20:00'),
-('WLI00006', 'WL0004', 'PR000006', 2, '2024-04-13 09:00:00', '2024-04-13 09:00:00'),
-('WLI00007', 'WL0004', 'PR000007', 1, '2024-04-13 11:40:00', '2024-04-13 11:40:00'),
-('WLI00008', 'WL0005', 'PR000008', 1, '2024-04-13 13:30:00', '2024-04-13 13:30:00'),
-('WLI00009', 'WL0005', 'PR000009', 2, '2024-04-13 15:10:00', '2024-04-13 15:10:00'),
-('WLI00010', 'WL0005', 'PR000010', 1, '2024-04-13 17:20:00', '2024-04-13 17:20:00');
-
-
--- -------------------------------------------------------------------------------------
-
--- Tables
-  -- user
-  -- user_address
-
-  -- product category
-  -- product
-
-  -- order
-  -- order item
-
-  -- cart
-  -- cart_item
-
-  -- offer
-  -- payment
-  -- review
-
-  -- wishlist
-  -- wishlist item
