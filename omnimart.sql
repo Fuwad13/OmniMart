@@ -23,7 +23,7 @@ VALUES
 ('EMP00003', 'Manager', 'David', 'Brown', 'david.b@yahoo.com', 'david456', '4449876543', 'avt_man1.jpg', '2019-04-02 14:20:00', '2019-04-03 13:45:00'),
 ('EMP00004', 'Manager', 'Ava', 'Perez', 'ava.p@yahoo.com', 'ava456', '6666543210', 'avt_man2.jpg', '2019-04-03 16:25:00', '2019-04-04 14:50:00'),
 ('EMP00005', 'Supervisor', 'Charlotte', 'Scott', 'charlotte.s@yahoo.com', 'charlotte456', 'avt_sup1', 'avatar22.jpg', '2017-02-22 08:55:00', '2017-02-23 10:30:00'),
-('EMP00006', 'Supervisor', 'Ella', 'Garcia', 'ella.g@gmail.com', 'ella123', '4443216789', 'avt_sup2.jpg', '2017-02-25 EMP:30:00', '2017-02-26 15:10:00'),
+('EMP00006', 'Supervisor', 'Ella', 'Garcia', 'ella.g@gmail.com', 'ella123', '4443216789', 'avt_sup2.jpg', '2017-02-25 15:30:00', '2017-02-26 15:10:00'),
 ('EMP00007', 'Marketing', 'Liam', 'Howard', 'liam.h@yahoo.com', 'liam456', '5554321678', 'avt_mkt1.jpg', '2016-01-19 10:15:00', '2016-01-20 12:40:00'),
 ('EMP00008', 'Marketing', 'Sarah', 'Martinez', 'sarah.m@gmail.com', 'sarah123', '3338765432', 'avt_mkt2.jpg', '2020-05-18 16:50:00', '2020-05-19 09:10:00'),
 ('EMP00009', 'Sales', 'Sophia', 'Wright', 'sophia.w@gmail.com', 'sophia123', '9995432167', 'avt_sales1.jpg', '2021-06-26 13:30:00', '2021-06-27 10:15:00'),
