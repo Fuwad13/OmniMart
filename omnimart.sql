@@ -1,4 +1,5 @@
 create database if not exists `omnimart`;
+use `omnimart`;
 
 CREATE TABLE `user` (
   `id` varchar(20) not null,
